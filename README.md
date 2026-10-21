@@ -1,2 +1,2 @@
 # docx-date-updater
-A simple program that rewrites all outdated "Month Year" instances in a provided directory's Microsoft Word documents (.docx) and replaces them with the current "Month Year".
+docx-date-updater is a simple program that rewrites all outdated "Month Year" instances in a provided folder's Microsoft Word documents (.docx) text and replaces them with the current "Month Year" using the python-docx library. For instance, all instances of "September 2018" in text will change to the current month and date ("October 2026" at the time of this commit) of the system it is running on. It is useful for mass updating all Microsoft Word documents in a folder, which may come in handy for documents such as maintenance sheets.
